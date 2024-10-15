@@ -105,7 +105,7 @@ The input phrase can contain punctuation marks. In that case, the translator app
 **Example:** 
 * The translation of “hello world!” is “ellohay orldway!”.
 
-### Translating a Phrase with Upper- and Title-case Words
+### User Story #8 -- Translating a Phrase with Upper- and Title-case Words
 The input phrase can contain upper- and title-case words. In those cases, the translator applies the translation rules to the single and composite words while preserving the upper- and title-cases. Cases different from upper- and title-cases are not allowed (e.g., “biRd”).
 
 **Requirement:** 
