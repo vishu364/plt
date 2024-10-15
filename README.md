@@ -97,7 +97,7 @@ The input phrase can contain more words (separated by white spaces). In that cas
 * The translation of “well-being” is “ellway-eingbay”.
 
 ### User Story #7 -- Translating a Phrase Containing Punctuations
-The input phrase can contain punctuation marks. In that case, the translator applies the translation rules to the single and composite words while preserving the punctuation marks. Only the following punctuation marks are allowed: point, comma, semi-colon, colon, question mark, exclamation mark, and round parenthesis.
+The input phrase can contain punctuation marks. In that case, the translator applies the translation rules to the single and composite words while preserving the punctuation marks. Only the following punctuation marks are allowed: point, comma, semi-colon, colon, apostrophe, question mark, exclamation mark, and round parenthesis.
 
 **Requirement:**  
 * Implement `PigLatinTranslator.translate(self) -> str` to let the translator translate a phrase containing the allowed punctuation marks. For punctuation marks not allowed, raise a `PigLatinError`.
